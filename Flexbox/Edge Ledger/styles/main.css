@@ -28,13 +28,12 @@ body {
 .text-primary {
 	color: #93cb52;
 	margin-left: 5px;
-    font-weight: 600;
+	font-weight: 600;
 }
 .page-links {
 	display: flex;
 	list-style: none;
-	flex-basis: 500px;
-	/* justify-content: space-evenly; */
+	flex-basis: 600px;
 }
 .page-link {
 	flex-basis: 100px;
@@ -45,7 +44,6 @@ body {
 .page-link a {
 	text-decoration: none;
 	color: white;
-	/* padding: 10px; */
 }
 
 .page-link:hover {
@@ -58,8 +56,6 @@ body {
 	background: #000 url("../images/showcase.jpg") no-repeat center center/cover;
 	height: 100vh;
 	color: #fff;
-	/* margin-top: -20px; */
-	/* overflow: hidden; */
 }
 
 .showcase .showcase-container {
@@ -113,35 +109,137 @@ body {
 	padding: 1rem;
 }
 
-.m-heading{
-    text-align: center;
-    font-size: 2rem;
-    padding: 1.8rem 0rem;
+.m-heading {
+	font-size: 2rem;
+	padding: 1.8rem 0rem;
+}
+.text-center {
+	text-align: center;
 }
 
 .features-container {
 	max-width: 1100px;
 	margin: auto;
 	display: flex;
-    overflow: hidden;
+	overflow: hidden;
 }
 
-.feature-container{
-    text-align: center;
-    padding: 1.2rem;
+.feature-container {
+	text-align: center;
+	padding: 1.2rem;
 }
 
-.mx-1{
-    margin: 1rem 0rem;
+.mx-1 {
+	margin: 1rem 0rem;
 }
 
 .feature-container i {
-    margin-bottom: 1rem;
-    border-radius: 50%;
-    background-color: #92cb52;
-    padding: 1.2rem;
+	margin-bottom: 1rem;
+	border-radius: 50%;
+	background-color: #92cb52;
+	padding: 1.2rem;
 }
 
-.feature-container p{
-    text-align: justify;
+.feature-container p {
+	text-align: justify;
+}
+
+#team {
+	display: flex;
+	height: 500px;
+}
+#team div {
+	flex: 1;
+}
+.team-img {
+	background: url("../images/people.jpg") center center/cover;
+}
+
+.bg-dark {
+	background-color: #ada8a8a1;
+}
+
+.p-3 {
+	padding: 2rem;
+}
+
+.abt-team {
+	max-width: 600px;
+}
+
+.abt-team p {
+	text-align: justify;
+	padding-right: 1.5rem;
+}
+
+.team-member {
+	margin-top: 2rem;
+}
+
+.team-member p {
+	border-bottom: 1px dotted rgba(90, 82, 82, 0.822);
+	padding: 0.5rem 0rem;
+}
+
+#our-clients {
+	margin-bottom: 1.8rem;
+}
+
+.clients {
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.clients img {
+	width: 70%;
+}
+
+#contact {
+	display: flex;
+	height: 550px;
+}
+.form-container {
+	background-color: #52910a;
+	color: #fff;
+	padding: 0rem 3rem;
+}
+#contact div {
+	flex: 1;
+}
+
+.form-group {
+	display: flex;
+	flex-flow: column;
+	padding: 0.2rem 2rem;
+	margin: 0.2rem;
+}
+.form-group label {
+	margin: 0.5rem 0rem;
+}
+
+.form-group input,
+textarea {
+	padding: 0.4rem;
+	border: 1px solid salmon;
+	border-radius: 2px;
+}
+
+.form-group input:focus,
+textarea:focus {
+	outline: none;
+}
+.form-group button {
+	margin: 0.5rem auto;
+}
+
+#map {
+	height: 100%;
+	border: 1px solid red;
+}
+footer {
+	padding: 1.2rem;
+	text-align: center;
+	background-color: #332d2dc4;
+	color: #fff;
 }

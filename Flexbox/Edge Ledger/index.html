@@ -20,6 +20,7 @@
 		/>
 		<link rel="stylesheet" href="styles/main.css" />
 		<title>Edge Ledger | Give our building a fresh look</title>
+		<script src="./js/app.js"></script>
 	</head>
 	<body id="home">
 		<nav id="navbar">
@@ -31,7 +32,8 @@
 				<li class="page-link"><a href="#home">Home</a></li>
 				<li class="page-link"><a href="#whatwedo">About</a></li>
 				<li class="page-link"><a href="#team">Team</a></li>
-				<li class="page-link"><a href="#contact">Contact</a></li>
+				<li class="page-link"><a href="#our-clients">Clients</a></li>
+				<li class="page-link"><a href="#contact">Contact Us</a></li>
 			</ul>
 		</nav>
 		<header id="home" class="showcase">
@@ -47,7 +49,7 @@
 		<section id="whatwedo">
 			<div class="bg-light py-1">
 				<div class="container">
-					<h2 class="m-heading">
+					<h2 class="m-heading text-center">
 						<span class="text-primary">What</span> We Do
 					</h2>
 					<div class="features-container">
@@ -79,5 +81,78 @@
 				</div>
 			</div>
 		</section>
+		<section id="team">
+			<div class="team-img"></div>
+			<div class="abt-team bg-dark p-3">
+				<h3 class="m-heading"><span class="text-primary">Our</span> Values</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum odit
+					temporibus praesentium eos animi commodi nemo laboriosam nesciunt
+					eveniet molestiae?
+				</p>
+				<div class="team-member">
+					<h4>Our Teams</h4>
+					<p>Mark Smith: CEO</p>
+					<p>Shanon Jhonson: CFO</p>
+					<p>John Corbit: Lead Accountant</p>
+					<p>Jannet Widglet: Investment Management</p>
+					<p>Kara Jhonson: Senior Accountant</p>
+					<p>Rico Morgage: Client Relationship</p>
+				</div>
+			</div>
+		</section>
+		<section id="our-clients">
+			<h3 class="m-heading text-center">
+				<span class="text-primary">Our</span> Clients
+			</h3>
+			<div class="clients">
+				<div><img src="./logos/logo1.png" alt="" /></div>
+				<div><img src="./logos/logo2.png" alt="" /></div>
+				<div><img src="./logos/logo3.png" alt="" /></div>
+				<div><img src="./logos/logo4.png" alt="" /></div>
+				<div><img src="./logos/logo5.png" alt="" /></div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="form-container">
+				<h2 class="m-heading text-center">Contact Us</h2>
+				<p class="text-center">Please use the form below to contact us</p>
+
+				<form>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" />
+					</div>
+					<div class="form-group">
+						<label for="mail">Email</label>
+						<input type="email" name="email" id="mail" />
+					</div>
+					<div class="form-group">
+						<label for="telp">Telephone</label>
+						<input type="tel" name="phone_no" id="telp" />
+					</div>
+
+					<div class="form-group">
+						<label for="mess">Message</label>
+						<textarea name="message" id="mess"></textarea>
+					</div>
+					<div class="form-group">
+						<button class="btn" type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div id="map"></div>
+		</section>
+		<footer>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse earum, a
+				recusandae omnis repudiandae libero sequi facere .
+			</p>
+			<p>Copywrite &copy; 2021, EdgeLedger, All Rights Reserved</p>
+		</footer>
+		<script
+			async
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-IrLfptT-mGbWFA_WnWF5IRK01lyCWcI&callback=initMap"
+		></script>
 	</body>
 </html>
